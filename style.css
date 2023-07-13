@@ -26,9 +26,8 @@ body{
 
 .container{
   width: 850px;
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
-  text-align: center;
 }
 
 .description p{
@@ -36,11 +35,46 @@ body{
   text-align: center;
 }
 
+.box-center{
+
+}
+
 .box-center div{
-  width: 200px;
+  width: calc((100% - 108px) / 3);
   height: 70px;
   display: inline-block;
-  background-color: aqua;
+  background-color: #0F0E17;
   margin: 18px 12px;
 }
-/* end main */
+
+.box-center .card img{
+  height:  70px;
+  float: left;
+  margin-right: 10px;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.card{
+  box-shadow: 5px 3px 5px #adadad;
+}
+
+.name{
+  font-weight: 700;
+  color: white;
+}
+
+.work{
+  margin: 5px 0px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.email{
+  color: #6ecbf2;
+  font-size: 0.9rem ;
+}
