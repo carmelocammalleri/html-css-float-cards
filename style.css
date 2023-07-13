@@ -25,7 +25,7 @@ body{
 /* main */
 
 .container{
-  width: 850px;
+  width: 90%;
   max-width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -33,14 +33,19 @@ body{
 
 
 .description p{
+  width: calc(100% - 20px);
   margin-bottom: 30px;
-  width: calc(100% - 10px);
-  text-align: center;
+}
+
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .card{
-  width: 220px;
-  height: 70px;
+  width: calc( (100% - 90px) / 3);
   display: inline-block;
   background-color: #0F0E17;
   margin: 18px 10px;
@@ -52,12 +57,6 @@ body{
   height:  70px;
   float: left;
   margin-right: 10px;
-}
-
-.clearfix::after{
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .name{
