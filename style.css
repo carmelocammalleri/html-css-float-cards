@@ -1,5 +1,33 @@
+/* General */
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+
+/* end General */
+
+/* header */
+
+.box-header{
+  color:#E53170 ;
+  text-align: center;
+  padding: 30px;
+}
+
+.box-header p{
+  color: black;
+}
+
+
+
+
+
+
+
+/* end header */
