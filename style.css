@@ -26,7 +26,7 @@ body{
 
 .container{
   width: 850px;
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -61,20 +61,22 @@ body{
 
 .card{
   box-shadow: 5px 3px 5px #adadad;
+  border: 1px;
 }
 
 .name{
   font-weight: 700;
+  font-size: 0.8rem;
   color: white;
 }
 
 .work{
   margin: 5px 0px;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: white;
 }
 
 .email{
   color: #6ecbf2;
-  font-size: 0.9rem ;
+  font-size: 0.6rem ;
 }
