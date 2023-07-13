@@ -16,18 +16,19 @@ body{
 
 .box-header{
   color:#E53170 ;
-  text-align: center;
   padding: 30px;
+  text-align: center;
 }
-
-.box-header p{
-  color: black;
-}
-
-
-
-
-
-
 
 /* end header */
+
+/* main */
+
+.container{
+  width: 850px;
+  max-width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* end main */
