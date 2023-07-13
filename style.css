@@ -28,6 +28,7 @@ body{
   width: 850px;
   max-width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .description p{
@@ -47,7 +48,7 @@ body{
   margin: 18px 12px;
 }
 
-.box-center .card img{
+.box-center img{
   height:  70px;
   float: left;
   margin-right: 10px;
@@ -60,7 +61,7 @@ body{
 }
 
 .card{
-  box-shadow: 5px 3px 5px #adadad;
+  box-shadow: 0px 0px 5px 2px #adadad;
   border: 1px;
 }
 
@@ -68,6 +69,13 @@ body{
   font-weight: 700;
   font-size: 0.8rem;
   color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.card span{
+
 }
 
 .work{
